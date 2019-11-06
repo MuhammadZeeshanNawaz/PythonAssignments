@@ -26,11 +26,12 @@ print(time.ctime())
 # Question no 04
 
 
-pie = 3.142
+from math import pi
+
 print ("Enter the radius of a circle")
 radius = int(input())
-area = pie * (radius*radius)
-print (area)
+area = pi * (radius*radius)
+print ("Your Area is ",round(area,2))
 
 
 # Question no 05
